@@ -1,3 +1,6 @@
+#docker build -t vrmtech/timescale_db:dev .
+#docker push vrmtech/timescale_db:dev
+
 ARG PG_VERSION
 ARG PREV_TS_VERSION=2.0.0
 ARG PREV_EXTRA
